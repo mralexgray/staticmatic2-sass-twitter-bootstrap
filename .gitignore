@@ -1,0 +1,15 @@
+## STATICMATIC2
+build/
+config/amazon.yml
+ie.css
+print.css
+screen.css
+
+## PROJECT::GENERAL
+.sass-cache
+
+## PROJECT::SPECIFIC
+*.gem
+.rvmrc
+.bundle
+.redcar
