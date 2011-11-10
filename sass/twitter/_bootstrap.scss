@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v1.1.1
+ * Bootstrap v1.3.0
  *
  * Copyright 2011 Twitter, Inc
  * Licensed under the Apache License v2.0
@@ -13,14 +13,17 @@
  */
 
 // CSS Reset
-@import "reset";
+@import "reset.scss";
 
 // Core
-@import "preboot";
-@import "scaffolding";
+@import "variables.scss";
+@import "mixins.scss";
+
+// Grid system and page structure
+@import "scaffolding.scss";
 
 // Styled patterns and elements
-@import "type";
-@import "forms";
-@import "tables";
-@import "patterns";
+@import "type.scss";
+@import "forms.scss";
+@import "tables.scss";
+@import "patterns.scss";
